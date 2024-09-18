@@ -1,0 +1,27 @@
+# Ignore Unity auto-generated files and folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Ignore asset meta files
+*.pidb
+*.pidb.meta
+*.pdb
+*.opendb
+*.VC.db
+
+# Ignore Visual Studio/JetBrains Rider files
+.vscode/
+.idea/
+*.suo
+*.userprefs
+*.user
+*.csproj
+*.unityproj
+*.sln
+
+# Ignore build results
+build/
