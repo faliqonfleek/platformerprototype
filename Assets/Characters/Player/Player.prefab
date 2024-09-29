@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 6989950201340516460}
   - component: {fileID: 5310264942853178095}
   - component: {fileID: 5509283050027886590}
+  - component: {fileID: 7073416263497750709}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -104,6 +105,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkSpeed: 5
   runSpeed: 8
+  jumpImpulse: 10
   _isMoving: 0
   _isRunning: 0
   _isFacingRight: 1
@@ -212,6 +214,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 5b96abde-fb3f-4c0c-ba33-f032fea427a5
     m_ActionName: Player/Run[/Keyboard/leftShift]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 992949383336453805}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnJump
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 6159fad5-3825-4d85-bf51-3b57e9213d32
+    m_ActionName: Player/Jump[/Keyboard/space]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -300,6 +318,34 @@ CapsuleCollider2D:
   m_Offset: {x: -0.030185968, y: -0.2716744}
   m_Size: {x: 0.6669943, y: 1.6501966}
   m_Direction: 0
+--- !u!114 &7073416263497750709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4596089932920384812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4397e40a57f3c3d4f92415cb11b7e03f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  castFilter:
+    useTriggers: 0
+    useLayerMask: 0
+    useDepth: 0
+    useOutsideDepth: 0
+    useNormalAngle: 0
+    useOutsideNormalAngle: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 0
+    minDepth: 0
+    maxDepth: 0
+    minNormalAngle: 0
+    maxNormalAngle: 0
+  groundDistance: 0.05
+  _isGrounded: 0
 --- !u!1 &6529107816059400107
 GameObject:
   m_ObjectHideFlags: 0
