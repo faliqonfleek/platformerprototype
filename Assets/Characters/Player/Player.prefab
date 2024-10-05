@@ -105,7 +105,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkSpeed: 5
   runSpeed: 8
-  jumpImpulse: 10
+  jumpImpulse: 15
+  airWalkSpeed: 3
   _isMoving: 0
   _isRunning: 0
   _isFacingRight: 1
@@ -155,7 +156,19 @@ MonoBehaviour:
     m_ActionId: ddf9a39f-9d2a-4508-ace8-4d16ae08bc5c
     m_ActionName: Player/Look[/Mouse/delta]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 992949383336453805}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnAttack
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: c6ba1575-2e0d-482f-9cef-2cd46df61072
     m_ActionName: Player/Attack[/Mouse/leftButton]
   - m_PersistentCalls:
@@ -250,7 +263,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 2
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -261,7 +274,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!95 &5310264942853178095
 Animator:
   serializedVersion: 5
@@ -315,8 +328,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.030185968, y: -0.2716744}
-  m_Size: {x: 0.6669943, y: 1.6501966}
+  m_Offset: {x: -0.030185968, y: -0.27520114}
+  m_Size: {x: 0.6669943, y: 1.65725}
   m_Direction: 0
 --- !u!114 &7073416263497750709
 MonoBehaviour:
@@ -344,8 +357,12 @@ MonoBehaviour:
     maxDepth: 0
     minNormalAngle: 0
     maxNormalAngle: 0
-  groundDistance: 0.05
+  groundDistance: 0.5
+  wallDistance: 0.5
+  ceilingDistance: 0.05
   _isGrounded: 0
+  _isOnWall: 0
+  _isOnCeiling: 0
 --- !u!1 &6529107816059400107
 GameObject:
   m_ObjectHideFlags: 0

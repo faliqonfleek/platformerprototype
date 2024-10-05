@@ -3,6 +3,7 @@ using UnityEditor;
 using UnityEditor.Callbacks;
 using System.IO;
 using System.IO.Compression;
+using System;
 
 public class PostBuildZip
 {
@@ -15,12 +16,11 @@ public class PostBuildZip
         // Fetch the version from Player Settings
         string version = PlayerSettings.bundleVersion;
 
-        // Increment the build number (optional)
-        int buildNumber = PlayerSettings.Android.bundleVersionCode + 1;
-        PlayerSettings.Android.bundleVersionCode = buildNumber;
+        // Get the current timestamp and format it for filenames
+        string buildNumber = DateTime.Now.ToString("yyyyMMdd");
 
         // Generate the versioned zip file name with version and build number
-        string zipFilePath = Path.Combine(buildDirectory, $"Build_v{version}_b{buildNumber}.zip");
+        string zipFilePath = Path.Combine(buildDirectory, $"Build_v{version}_build{buildNumber}.zip");
 
         // Ensure the zip file doesn't already exist
         if (File.Exists(zipFilePath))
