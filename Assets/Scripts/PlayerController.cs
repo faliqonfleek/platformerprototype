@@ -175,6 +175,7 @@ public class PlayerController : MonoBehaviour
     {
         if (context.started)
         {
+            // Set the attack trigger again to start the animation
             animator.SetTrigger(AnimationStrings.attackTrigger);
         }
     }
