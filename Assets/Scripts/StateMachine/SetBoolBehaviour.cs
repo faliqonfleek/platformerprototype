@@ -21,7 +21,14 @@ public class SetBoolBehaviour : StateMachineBehaviour
     // OnStateUpdate is called before OnStateUpdate is called on any state inside this state machine
     //override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     //{
-    //    
+    //    // TODO: Decide whether this is still needed
+    //    // Check if the attack button is pressed again
+    //    if (Input.GetMouseButton(0))
+    //    {
+    //        Debug.Log("Left mouse button clicked! (OnStateUpdate)");
+    //        // Reset and set the attack trigger to cancel and restart the animation
+    //        animator.ResetTrigger(AnimationStrings.attackTrigger);
+    //    }
     //}
 
     // OnStateExit is called before OnStateExit is called on any state inside this state machine

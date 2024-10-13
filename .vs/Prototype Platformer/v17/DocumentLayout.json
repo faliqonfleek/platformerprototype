@@ -3,27 +3,31 @@
   "WorkspaceRootPath": "D:\\Unity\\Prototype Platformer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DA2F3382-B28F-0D5A-FECB-C35308BCA0FE}|Assembly-CSharp.csproj|d:\\unity\\prototype platformer\\assets\\scripts\\statemachine\\setboolbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DA2F3382-B28F-0D5A-FECB-C35308BCA0FE}|Assembly-CSharp.csproj|D:\\Unity\\Prototype Platformer\\assets\\scripts\\statemachine\\setboolbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA2F3382-B28F-0D5A-FECB-C35308BCA0FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\statemachine\\setboolbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA2F3382-B28F-0D5A-FECB-C35308BCA0FE}|Assembly-CSharp.csproj|d:\\unity\\prototype platformer\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA2F3382-B28F-0D5A-FECB-C35308BCA0FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA2F3382-B28F-0D5A-FECB-C35308BCA0FE}|Assembly-CSharp.csproj|D:\\Unity\\Prototype Platformer\\assets\\scripts\\animationstrings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA2F3382-B28F-0D5A-FECB-C35308BCA0FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\animationstrings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA2F3382-B28F-0D5A-FECB-C35308BCA0FE}|Assembly-CSharp.csproj|D:\\Unity\\Prototype Platformer\\assets\\scripts\\parallaxeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA2F3382-B28F-0D5A-FECB-C35308BCA0FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\parallaxeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DA2F3382-B28F-0D5A-FECB-C35308BCA0FE}|Assembly-CSharp.csproj|D:\\Unity\\Prototype Platformer\\assets\\scripts\\touchingdirections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA2F3382-B28F-0D5A-FECB-C35308BCA0FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\touchingdirections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AB4EC9E-CA43-6A32-8946-E40D3D701208}|Assembly-CSharp-Editor.csproj|D:\\Unity\\Prototype Platformer\\assets\\editor\\postbuildzip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DA2F3382-B28F-0D5A-FECB-C35308BCA0FE}|Assembly-CSharp.csproj|D:\\Unity\\Prototype Platformer\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA2F3382-B28F-0D5A-FECB-C35308BCA0FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA2F3382-B28F-0D5A-FECB-C35308BCA0FE}|Assembly-CSharp.csproj|D:\\Unity\\Prototype Platformer\\assets\\scripts\\parallaxeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA2F3382-B28F-0D5A-FECB-C35308BCA0FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\parallaxeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA2F3382-B28F-0D5A-FECB-C35308BCA0FE}|Assembly-CSharp.csproj|D:\\Unity\\Prototype Platformer\\assets\\scripts\\animationstrings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA2F3382-B28F-0D5A-FECB-C35308BCA0FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\animationstrings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA2F3382-B28F-0D5A-FECB-C35308BCA0FE}|Assembly-CSharp.csproj|d:\\unity\\prototype platformer\\assets\\knight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA2F3382-B28F-0D5A-FECB-C35308BCA0FE}|Assembly-CSharp.csproj|solutionrelative:assets\\knight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AB4EC9E-CA43-6A32-8946-E40D3D701208}|Assembly-CSharp-Editor.csproj|d:\\unity\\prototype platformer\\assets\\editor\\postbuildzip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3AB4EC9E-CA43-6A32-8946-E40D3D701208}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\postbuildzip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,8 +38,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Knight.cs",
+              "DocumentMoniker": "D:\\Unity\\Prototype Platformer\\Assets\\Knight.cs",
+              "RelativeDocumentMoniker": "Assets\\Knight.cs",
+              "ToolTip": "D:\\Unity\\Prototype Platformer\\Assets\\Knight.cs",
+              "RelativeToolTip": "Assets\\Knight.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T13:30:36.081Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -44,46 +61,49 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\StateMachine\\SetBoolBehaviour.cs",
               "ToolTip": "D:\\Unity\\Prototype Platformer\\Assets\\Scripts\\StateMachine\\SetBoolBehaviour.cs",
               "RelativeToolTip": "Assets\\Scripts\\StateMachine\\SetBoolBehaviour.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBQAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-05T13:41:27.016Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "TouchingDirections.cs",
               "DocumentMoniker": "D:\\Unity\\Prototype Platformer\\Assets\\Scripts\\TouchingDirections.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TouchingDirections.cs",
               "ToolTip": "D:\\Unity\\Prototype Platformer\\Assets\\Scripts\\TouchingDirections.cs",
               "RelativeToolTip": "Assets\\Scripts\\TouchingDirections.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAlwBQAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAA5wFIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T14:12:50.452Z"
+              "WhenOpened": "2024-09-28T14:12:50.452Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "PostBuildZip.cs",
               "DocumentMoniker": "D:\\Unity\\Prototype Platformer\\Assets\\Editor\\PostBuildZip.cs",
               "RelativeDocumentMoniker": "Assets\\Editor\\PostBuildZip.cs",
               "ToolTip": "D:\\Unity\\Prototype Platformer\\Assets\\Editor\\PostBuildZip.cs",
               "RelativeToolTip": "Assets\\Editor\\PostBuildZip.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwEYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCQAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T16:53:26.159Z"
+              "WhenOpened": "2024-09-21T16:53:26.159Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AnimationStrings.cs",
               "DocumentMoniker": "D:\\Unity\\Prototype Platformer\\Assets\\Scripts\\AnimationStrings.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AnimationStrings.cs",
               "ToolTip": "D:\\Unity\\Prototype Platformer\\Assets\\Scripts\\AnimationStrings.cs",
               "RelativeToolTip": "Assets\\Scripts\\AnimationStrings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T15:21:55.077Z"
+              "WhenOpened": "2024-09-21T15:21:55.077Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -93,19 +113,20 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\ParallaxEffect.cs",
               "ToolTip": "D:\\Unity\\Prototype Platformer\\Assets\\Scripts\\ParallaxEffect.cs",
               "RelativeToolTip": "Assets\\Scripts\\ParallaxEffect.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T04:40:47.798Z"
+              "WhenOpened": "2024-09-17T04:40:47.798Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "D:\\Unity\\Prototype Platformer\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "D:\\Unity\\Prototype Platformer\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAIkAAAAAAAAAAAAUwJ4AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAIwLQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-16T10:54:36.033Z",
               "EditorCaption": ""
