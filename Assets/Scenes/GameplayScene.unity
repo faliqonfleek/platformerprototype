@@ -2417,11 +2417,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 724119583220073174, guid: 4e9ba4bcaaf1a0a4a8e8f4bbf3202c1f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.43
+      value: -3.21
       objectReference: {fileID: 0}
     - target: {fileID: 724119583220073174, guid: 4e9ba4bcaaf1a0a4a8e8f4bbf3202c1f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.748842
+      value: -1.72
       objectReference: {fileID: 0}
     - target: {fileID: 724119583220073174, guid: 4e9ba4bcaaf1a0a4a8e8f4bbf3202c1f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2458,6 +2458,14 @@ PrefabInstance:
     - target: {fileID: 956544285930576118, guid: 4e9ba4bcaaf1a0a4a8e8f4bbf3202c1f, type: 3}
       propertyPath: m_Name
       value: KnightEnemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4905812541091228310, guid: 4e9ba4bcaaf1a0a4a8e8f4bbf3202c1f, type: 3}
+      propertyPath: walkSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4905812541091228310, guid: 4e9ba4bcaaf1a0a4a8e8f4bbf3202c1f, type: 3}
+      propertyPath: walkStopRate
+      value: 0.05
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
