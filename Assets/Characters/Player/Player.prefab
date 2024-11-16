@@ -81,7 +81,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 21cad2ed3c9104d49b60de9b9ff55932, type: 3}
+  m_Sprite: {fileID: -747581590, guid: b856608fb634d6a4c8fa634214c733fb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -329,8 +329,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.030185968, y: -0.22467089}
-  m_Size: {x: 0.6669943, y: 1.7583106}
+  m_Offset: {x: -0.013262987, y: -0.013134837}
+  m_Size: {x: 1.3777556, y: 3.2306015}
   m_Direction: 0
 --- !u!114 &7073416263497750709
 MonoBehaviour:
@@ -376,6 +376,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98546adaff3c0d549bd9c2db483f02c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damageableHit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 992949383336453805}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnHit
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _maxHealth: 100
+  _health: 100
+  isAlive: 1
+  isInvincible: 0
 --- !u!1 &6529107816059400107
 GameObject:
   m_ObjectHideFlags: 0
@@ -451,7 +470,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 21cad2ed3c9104d49b60de9b9ff55932, type: 3}
+  m_Sprite: {fileID: -747581590, guid: b856608fb634d6a4c8fa634214c733fb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
