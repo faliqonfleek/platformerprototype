@@ -454,17 +454,17 @@ AnimatorStateMachine:
   - {fileID: -8920934294910473453}
   m_EntryTransitions: []
   m_StateMachineTransitions:
+  - first: {fileID: -73376386480986079}
+    second:
+    - {fileID: -5362573866532391239}
+  - first: {fileID: 7064582643458626972}
+    second:
+    - {fileID: 6650110463035574615}
   - first: {fileID: 8159755275130143797}
     second:
     - {fileID: -7470862376791722795}
     - {fileID: -3445082609623370225}
     - {fileID: -7664962759216370195}
-  - first: {fileID: 7064582643458626972}
-    second:
-    - {fileID: 6650110463035574615}
-  - first: {fileID: -73376386480986079}
-    second:
-    - {fileID: -5362573866532391239}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 580, y: 110, z: 0}
   m_EntryPosition: {x: 50, y: 120, z: 0}
@@ -1024,7 +1024,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: player_idle
-  m_Speed: 0.5
+  m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 7155786577442983462}
