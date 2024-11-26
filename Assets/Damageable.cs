@@ -52,20 +52,9 @@ public class Damageable : MonoBehaviour
 
     [SerializeField]
     private bool isInvincible = false;
-
-    public bool IsHit 
-    { 
-        get
-        {
-            return animator.GetBool(AnimationStrings.isHit);
-        }
-        private set
-        {
-            animator.SetBool(AnimationStrings.isHit, value);
-        }
-    }
-
+    
     private float timeSinceHit = 0;
+    [SerializeField]
     private float invincibilityTimer = 0.25f;
 
     public bool IsAlive
@@ -79,6 +68,20 @@ public class Damageable : MonoBehaviour
             isAlive = value;
             animator.SetBool(AnimationStrings.isAlive, value);
             Debug.Log("IsAlive set " + value);
+        }
+    }
+
+    // The velocity should not be changed while this is true but needs to be respected by other physics components like
+    // the player controlled
+    public bool LockVelocity
+    {
+        set
+        {
+            animator.SetBool(AnimationStrings.lockVelocity, value);
+        }
+        get
+        {
+            return animator.GetBool(AnimationStrings.lockVelocity);
         }
     }
 
@@ -108,8 +111,9 @@ public class Damageable : MonoBehaviour
             Health -= damage;
             isInvincible = true;
 
-            IsHit = true; 
             // Notify other subscribed components that the damageable was hit to handle the knockback and such
+            animator.SetTrigger(AnimationStrings.hitTrigger);
+            LockVelocity = true;
             damageableHit?.Invoke(damage, knockback);
             
             return true;

@@ -1962,6 +1962,17 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &1131228667 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4905812541091228310, guid: 4e9ba4bcaaf1a0a4a8e8f4bbf3202c1f, type: 3}
+  m_PrefabInstance: {fileID: 9202653407251373024}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aab4448c94a025b4e89ac920ffbc030a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1320241435
 GameObject:
   m_ObjectHideFlags: 0
@@ -2349,6 +2360,10 @@ PrefabInstance:
       propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 3364222829578848417, guid: 2de76dcd0e72d6948a4b6d543b128a1b, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4596089932920384812, guid: 2de76dcd0e72d6948a4b6d543b128a1b, type: 3}
       propertyPath: m_Name
       value: Player
@@ -2478,6 +2493,30 @@ PrefabInstance:
     - target: {fileID: 956544285930576118, guid: 4e9ba4bcaaf1a0a4a8e8f4bbf3202c1f, type: 3}
       propertyPath: m_Name
       value: KnightEnemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 1420340701429246697, guid: 4e9ba4bcaaf1a0a4a8e8f4bbf3202c1f, type: 3}
+      propertyPath: damageableHit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1420340701429246697, guid: 4e9ba4bcaaf1a0a4a8e8f4bbf3202c1f, type: 3}
+      propertyPath: damageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1131228667}
+    - target: {fileID: 1420340701429246697, guid: 4e9ba4bcaaf1a0a4a8e8f4bbf3202c1f, type: 3}
+      propertyPath: damageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1420340701429246697, guid: 4e9ba4bcaaf1a0a4a8e8f4bbf3202c1f, type: 3}
+      propertyPath: damageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnHit
+      objectReference: {fileID: 0}
+    - target: {fileID: 1420340701429246697, guid: 4e9ba4bcaaf1a0a4a8e8f4bbf3202c1f, type: 3}
+      propertyPath: damageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Knight, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1420340701429246697, guid: 4e9ba4bcaaf1a0a4a8e8f4bbf3202c1f, type: 3}
+      propertyPath: damageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 4905812541091228310, guid: 4e9ba4bcaaf1a0a4a8e8f4bbf3202c1f, type: 3}
       propertyPath: walkSpeed

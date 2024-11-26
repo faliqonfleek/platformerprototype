@@ -235,9 +235,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98546adaff3c0d549bd9c2db483f02c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damageableHit:
+    m_PersistentCalls:
+      m_Calls: []
   _maxHealth: 0
+  _health: 100
   isAlive: 1
   isInvincible: 0
+  invincibilityTimer: 0.25
 --- !u!1 &1940405616101532777
 GameObject:
   m_ObjectHideFlags: 0
@@ -265,7 +270,7 @@ Transform:
   m_GameObject: {fileID: 1940405616101532777}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 2.9, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -315,12 +320,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 3.0799644, y: 1.1692288}
-      - {x: 1.4350698, y: 0.7828579}
-      - {x: 1.7273386, y: 0.01709938}
-      - {x: 1.8152637, y: -0.6059426}
-      - {x: 3.5831356, y: -1.0290143}
-      - {x: 3.6079493, y: 0.173634}
+    - - {x: 0.21236348, y: 1.2028334}
+      - {x: -1.4103558, y: 0.8029926}
+      - {x: -0.87341046, y: 0.01709938}
+      - {x: -1.0523372, y: -0.5387331}
+      - {x: 0.5699141, y: -1.1522319}
+      - {x: 0.8075576, y: 0.15123087}
   m_UseDelaunayMesh: 0
 --- !u!114 &4293724116674195540
 MonoBehaviour:
@@ -335,6 +340,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackDamage: 10
+  knockback: {x: 2, y: 0}
 --- !u!1 &7110431044540365295
 GameObject:
   m_ObjectHideFlags: 0

@@ -114,6 +114,18 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public bool LockVelocity
+    {
+        set
+        {
+            animator.SetBool(AnimationStrings.lockVelocity, value);
+        }
+        get
+        {
+           return animator.GetBool(AnimationStrings.lockVelocity);
+        }
+    }
+
     Rigidbody2D rb;
     Animator animator;
 
@@ -133,7 +145,7 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (!damageable.IsHit)
+        if (!damageable.LockVelocity)
             rb.velocity = new Vector2(moveInput.x * currentMoveSpeed, rb.velocity.y);
 
         animator.SetFloat(AnimationStrings.yVelocity, rb.velocity.y);
