@@ -9,7 +9,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: IsHit
+    m_ConditionEvent: Hit
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: IsAlive
@@ -271,7 +271,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1888cda1b8084f740b275bb6189981af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boolName: IsHit
+  boolName: LockVelocity
   updateOnState: 1
   updateOnStateMachine: 0
   valueOnEnter: 1
@@ -401,7 +401,7 @@ AnimatorStateTransition:
   serializedVersion: 3
   m_TransitionDuration: 0
   m_TransitionOffset: 0
-  m_ExitTime: 0.5
+  m_ExitTime: 1
   m_HasExitTime: 1
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
@@ -454,17 +454,17 @@ AnimatorStateMachine:
   - {fileID: -8920934294910473453}
   m_EntryTransitions: []
   m_StateMachineTransitions:
-  - first: {fileID: -73376386480986079}
-    second:
-    - {fileID: -5362573866532391239}
-  - first: {fileID: 7064582643458626972}
-    second:
-    - {fileID: 6650110463035574615}
   - first: {fileID: 8159755275130143797}
     second:
     - {fileID: -7470862376791722795}
     - {fileID: -3445082609623370225}
     - {fileID: -7664962759216370195}
+  - first: {fileID: 7064582643458626972}
+    second:
+    - {fileID: 6650110463035574615}
+  - first: {fileID: -73376386480986079}
+    second:
+    - {fileID: -5362573866532391239}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 580, y: 110, z: 0}
   m_EntryPosition: {x: 50, y: 120, z: 0}
@@ -569,8 +569,14 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 1
     m_Controller: {fileID: 9100000}
-  - m_Name: IsHit
+  - m_Name: LockVelocity
     m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
+  - m_Name: Hit
+    m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
@@ -997,7 +1003,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: player_attack_1
-  m_Speed: 1
+  m_Speed: 1.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -2522085752712825642}
