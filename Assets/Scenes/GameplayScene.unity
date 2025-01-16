@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ad980451443d70438faac0bc6c235a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TrackedObjectOffset: {x: 0, y: 0, z: 0}
+  m_TrackedObjectOffset: {x: 0, y: 1, z: 0}
   m_LookaheadTime: 0.01
   m_LookaheadSmoothing: 0
   m_LookaheadIgnoreY: 0
@@ -342,7 +342,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.7, y: -1.73, z: -10}
+  m_LocalPosition: {x: 3.7, y: -0.73, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -588,7 +588,7 @@ Transform:
   m_GameObject: {fileID: 762069408}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.7, y: -1.73, z: -10}
+  m_LocalPosition: {x: 3.7, y: -0.73, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2814,10 +2814,6 @@ PrefabInstance:
     - target: {fileID: 4905812541091228310, guid: 4e9ba4bcaaf1a0a4a8e8f4bbf3202c1f, type: 3}
       propertyPath: walkSpeed
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4905812541091228310, guid: 4e9ba4bcaaf1a0a4a8e8f4bbf3202c1f, type: 3}
-      propertyPath: walkStopRate
-      value: 0.05
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
