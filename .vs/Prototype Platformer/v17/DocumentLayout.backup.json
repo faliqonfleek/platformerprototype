@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\Unity\\Prototype Platformer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DA2F3382-B28F-0D5A-FECB-C35308BCA0FE}|Assembly-CSharp.csproj|d:\\unity\\prototype platformer\\assets\\scripts\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA2F3382-B28F-0D5A-FECB-C35308BCA0FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DA2F3382-B28F-0D5A-FECB-C35308BCA0FE}|Assembly-CSharp.csproj|D:\\Unity\\Prototype Platformer\\assets\\scripts\\knight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA2F3382-B28F-0D5A-FECB-C35308BCA0FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\knight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA2F3382-B28F-0D5A-FECB-C35308BCA0FE}|Assembly-CSharp.csproj|d:\\unity\\prototype platformer\\assets\\scripts\\projectilelauncher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DA2F3382-B28F-0D5A-FECB-C35308BCA0FE}|Assembly-CSharp.csproj|D:\\Unity\\Prototype Platformer\\assets\\scripts\\projectilelauncher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA2F3382-B28F-0D5A-FECB-C35308BCA0FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\projectilelauncher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA2F3382-B28F-0D5A-FECB-C35308BCA0FE}|Assembly-CSharp.csproj|d:\\unity\\prototype platformer\\assets\\scripts\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA2F3382-B28F-0D5A-FECB-C35308BCA0FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DA2F3382-B28F-0D5A-FECB-C35308BCA0FE}|Assembly-CSharp.csproj|D:\\Unity\\Prototype Platformer\\assets\\scripts\\healthpickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,10 +39,6 @@
       "RelativeMoniker": "D:0:0:{DA2F3382-B28F-0D5A-FECB-C35308BCA0FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\detectionzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA2F3382-B28F-0D5A-FECB-C35308BCA0FE}|Assembly-CSharp.csproj|D:\\Unity\\Prototype Platformer\\assets\\scripts\\knight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA2F3382-B28F-0D5A-FECB-C35308BCA0FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\knight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DA2F3382-B28F-0D5A-FECB-C35308BCA0FE}|Assembly-CSharp.csproj|D:\\Unity\\Prototype Platformer\\assets\\scripts\\healthtext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA2F3382-B28F-0D5A-FECB-C35308BCA0FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthtext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -59,12 +59,12 @@
       "RelativeMoniker": "D:0:0:{DA2F3382-B28F-0D5A-FECB-C35308BCA0FE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\parallaxeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\Prototype Platformer\\assets\\faderemovebehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\faderemovebehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\Prototype Platformer\\Assets\\FadeRemoveBehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\FadeRemoveBehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\Prototype Platformer\\assets\\setfloatbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\setfloatbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\Prototype Platformer\\Assets\\SetFloatBehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\SetFloatBehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,17 +74,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Projectile.cs",
               "DocumentMoniker": "D:\\Unity\\Prototype Platformer\\Assets\\Scripts\\Projectile.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Projectile.cs",
               "ToolTip": "D:\\Unity\\Prototype Platformer\\Assets\\Scripts\\Projectile.cs",
               "RelativeToolTip": "Assets\\Scripts\\Projectile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T15:04:43.685Z",
               "EditorCaption": ""
@@ -97,7 +97,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\ProjectileLauncher.cs",
               "ToolTip": "D:\\Unity\\Prototype Platformer\\Assets\\Scripts\\ProjectileLauncher.cs",
               "RelativeToolTip": "Assets\\Scripts\\ProjectileLauncher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T14:57:30.088Z",
               "EditorCaption": ""
@@ -112,8 +112,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Events\\CharacterEvents.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T13:42:33.312Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-21T13:42:33.312Z"
             },
             {
               "$type": "Document",
@@ -125,8 +124,7 @@
               "RelativeToolTip": "Assets\\Scripts\\UIManager.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAuwDQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T13:34:24.582Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-21T13:34:24.582Z"
             },
             {
               "$type": "Document",
@@ -138,25 +136,24 @@
               "RelativeToolTip": "Assets\\Scripts\\HealthText.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAqwBEAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T13:18:19.167Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-21T13:18:19.167Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "Knight.cs",
               "DocumentMoniker": "D:\\Unity\\Prototype Platformer\\Assets\\Scripts\\Knight.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Knight.cs",
               "ToolTip": "D:\\Unity\\Prototype Platformer\\Assets\\Scripts\\Knight.cs",
               "RelativeToolTip": "Assets\\Scripts\\Knight.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAIA3wGsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAEwGwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-19T19:36:09.271Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "DetectionZone.cs",
               "DocumentMoniker": "D:\\Unity\\Prototype Platformer\\Assets\\Scripts\\DetectionZone.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DetectionZone.cs",
@@ -164,12 +161,11 @@
               "RelativeToolTip": "Assets\\Scripts\\DetectionZone.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T19:32:48.652Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-19T19:32:48.652Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "AnimationStrings.cs",
               "DocumentMoniker": "D:\\Unity\\Prototype Platformer\\Assets\\Scripts\\AnimationStrings.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AnimationStrings.cs",
@@ -177,12 +173,11 @@
               "RelativeToolTip": "Assets\\Scripts\\AnimationStrings.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAApwBcAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T15:21:55.077Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T15:21:55.077Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "SetBoolBehaviour.cs",
               "DocumentMoniker": "D:\\Unity\\Prototype Platformer\\Assets\\Scripts\\StateMachine\\SetBoolBehaviour.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StateMachine\\SetBoolBehaviour.cs",
@@ -190,12 +185,11 @@
               "RelativeToolTip": "Assets\\Scripts\\StateMachine\\SetBoolBehaviour.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAAwEQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T13:41:27.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-05T13:41:27.016Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "TouchingDirections.cs",
               "DocumentMoniker": "D:\\Unity\\Prototype Platformer\\Assets\\Scripts\\TouchingDirections.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TouchingDirections.cs",
@@ -203,12 +197,11 @@
               "RelativeToolTip": "Assets\\Scripts\\TouchingDirections.cs",
               "ViewState": "AgIAAEQAAAAAAAAAAAAgwFIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T14:12:50.452Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-28T14:12:50.452Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "D:\\Unity\\Prototype Platformer\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
@@ -216,12 +209,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
               "ViewState": "AgIAALkAAAAAAAAAAAAhwNkAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T10:54:36.033Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-16T10:54:36.033Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "HealthPickup.cs",
               "DocumentMoniker": "D:\\Unity\\Prototype Platformer\\Assets\\Scripts\\HealthPickup.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HealthPickup.cs",
@@ -229,8 +221,7 @@
               "RelativeToolTip": "Assets\\Scripts\\HealthPickup.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T13:15:37.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-30T13:15:37.263Z"
             },
             {
               "$type": "Document",
